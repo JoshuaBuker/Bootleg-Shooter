@@ -49,9 +49,7 @@ public class MouseListener {
             }
         }
     }
-
-
-
+    
     public static void mouseScrollCallback(long window, double xOffset, double yOffset) {
         getInstance().scrollY = yOffset;
         getInstance().scrollX = xOffset;

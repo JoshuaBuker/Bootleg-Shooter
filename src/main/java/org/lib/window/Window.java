@@ -18,6 +18,8 @@ import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GL11;
 
 public class Window {
+
+  // ============================================= Builder ===================================================
   public static class Builder {
     private boolean centered = true;
     private boolean visible = true;
@@ -94,6 +96,8 @@ public class Window {
       );
     }
   }
+
+  // =============================================== Window ========================================================
 
   private boolean centered, resizable, visible, maximized, borderless;
   private ColorRGBA backgroundColor;

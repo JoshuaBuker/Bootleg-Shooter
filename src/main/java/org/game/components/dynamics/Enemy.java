@@ -34,7 +34,7 @@ public class Enemy extends DynamicComponent {
 
     if (health <= 0) {
       health = 1.0f;
-      setLocation(new PercentPoint((float)Math.random(), (float)Math.random()));
+      this.setLocation(new PercentPoint((float)Math.random(), (float)Math.random()));
     }
 
     this.healthbarRemainingDimentions.setWidth(Math.round(healthbarDimentions.getWidth() * health));
